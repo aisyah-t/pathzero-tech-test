@@ -1,0 +1,26 @@
+{
+  "name": "pathzero-tech-test-jm",
+  "version": "1.0.0",
+  "description": "This is a technical challenge for applicants to Pathzero to complete",
+  "engines": {
+    "npm": ">=9.x",
+    "node": ">=18.x <19.x"
+  },
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Hay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/sqlite3": "^3.1.8",
+    "typescript": "^5.0.4"
+  }
+}
