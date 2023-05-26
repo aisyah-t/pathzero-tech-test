@@ -1,24 +1,24 @@
 # Pathzero Technical Challenge
-This project is currently a Node based express API with a SQLITE database. 
-What it becomes is up to you - edit this README as you see fit. 
+This project is currently a Node based express API with a SQLITE database.
+What it becomes is up to you - edit this README as you see fit.
 
 Please do not spend more than a few hours on this project - you don't need to provide a complete application, we want a starting point to talk about your choices and what you know.
 
 ## Getting started
 You will need node 18 with npm 9 installed
 
-In a terminal 
+In a terminal
 ```sh
 $ npm i # install node modules
 $ npm run start # start the web server
 ```
 
-In a browser 
+In a browser
 
 - Go to `localhost:3000/projects` to retrieve a list of projects
 
 ## Your task
-We want to sell green energy projects to potential users 
+We want to sell green energy projects to potential users
 
 ### Minimum acceptance criteria
 - Add a UI to display the list of projects
@@ -40,4 +40,4 @@ Please choose one or two that you feel would best exemplify your skills, or exte
 - Extend the database to include relational data for some purpose
 
 ## Guidelines
-There are no limitations on changing any of the existing code, it is meant just as a starting point. Feel free to edit the database schema, package.json, any files you want. 
+There are no limitations on changing any of the existing code, it is meant just as a starting point. Feel free to edit the database schema, package.json, any files you want.
