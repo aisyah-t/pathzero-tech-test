@@ -1,17 +1,11 @@
-import ProductPanel from "./components/ProjectPanel";
+import { ProjectsProvider } from "./context/ProjectsContext";
+import { Projects } from "./views";
 
 function App() {
-  const mockProject = {
-    name: "test",
-    price: 17898,
-    provider: "yeah",
-    country: "AU",
-  };
-
   return (
-    <div className="pricing-table row">
-      <ProductPanel project={mockProject} />
-    </div>
+    <ProjectsProvider>
+      <Projects />
+    </ProjectsProvider>
   );
 }
 
