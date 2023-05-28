@@ -1,4 +1,57 @@
 # Pathzero Technical Challenge
+
+This is a repo for the Pathzero technical coding task. The original README content can  be found at the bottom.
+
+## Getting up and running
+
+You will need node 18 with npm 9 installed
+
+In a terminal
+```sh
+$ npm i # install node modules
+$ npm run start # start the server
+$ npm run dev # start the client
+```
+
+These are my initial rough plans for building the app. At time of writing, due to time constraints and challenges with set up configs and build tools I've only managed to complete the relevant components and screen to display a list of projects fetched from the API.
+
+## Tech stack and libraries
+- Typescript
+- React
+- Vite
+- Mustard UI
+- useSWR
+- Jest
+- React Testing Library
+- Express
+- SQLite
+
+## Client
+
+### Components
+- Project Panel: Display project info, cost per unit and call to action to select product and add to cart.
+- Cart Row: Display project info, quantity and total for each item in cart.
+- Cart Summary: Display whole cart total and call to action to place order.
+- Page Header: Display page  title, call to action to view cart and order.
+
+### Views
+- Projects: Display all available projects in project panels.
+- Cart: Display all items in cart rows with a cart summary at the bottom/on the right hand side of the rows.
+
+### Context and utils
+- Projects Context: Load projects, set shopping cart.
+- Fetch all projects from the API.
+- Display cents value as a dollar string.
+
+
+## Server
+- API with a SQLite database.
+
+
+__________
+
+## Original README content
+
 This project is currently a Node based express API with a SQLITE database.
 What it becomes is up to you - edit this README as you see fit.
 
